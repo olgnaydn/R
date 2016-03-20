@@ -11,5 +11,5 @@ con <- dbConnect(drv, dbname = "development", host = "development.clgjf7569y1t.u
 #tablodan select etme
 d<-dbGetQuery(con,"select * from test2")
 
-#tabloya yazdýrma
+#tabloya yazdirma
 dbWriteTable(con, "test3", d)
