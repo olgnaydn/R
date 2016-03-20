@@ -6,8 +6,10 @@ con <- dbConnect(drv, dbname = "development", host = "development.clgjf7569y1t.u
                  user = "olgun", password = 'development')
 
 
-#tabloya yazdýrma
-dbWriteTable(con, "accesibility", d)
+
 
 #tablodan select etme
 d<-dbGetQuery(con,"select * from test2")
+
+#tabloya yazdÃ½rma
+dbWriteTable(con, "test3", d)
