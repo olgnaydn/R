@@ -33,10 +33,3 @@ googleAuthR::gar_auth()
 #Sendin image to API
 o <- getGoogleVisionResponse("http://image.xxxx.jpg", feature="LABEL_DETECTION")
 
-
-### FEATURES
-# with the parameter 'feature' you can define which type of analysis you want. Results differ by feature-type.
-# The default is set to 'LABEL_DETECTION' but you can choose one out of: 
-#FACE_DETECTION, LANDMARK_DETECTION, LOGO_DETECTION, LABEL_DETECTION, TEXT_DETECTION		
-
-
