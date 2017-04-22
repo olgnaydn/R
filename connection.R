@@ -12,4 +12,4 @@ con <- dbConnect(drv, dbname = "development", host = "development.clgjf7569y1t.u
 d<-dbGetQuery(con,"select * from test2")
 
 #tabloya yazdirma
-dbWriteTable(con, "test3", d)
+dbWriteTable(con, "test", d)
