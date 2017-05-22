@@ -30,6 +30,6 @@ options("googleAuthR.scopes.selected" = c("https://www.googleapis.com/auth/cloud
 googleAuthR::gar_auth()
 
 ############
-#Sendin image to API
+#Sending image to API
 o <- getGoogleVisionResponse("http://image.xxxx.jpg", feature="LABEL_DETECTION")
 
