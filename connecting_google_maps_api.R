@@ -1,4 +1,8 @@
-#setting loop. Dont forget that Google Maps API's daily request size is 2500!
+
+#Connecting Google MAPS API by using R. First of all you need get your API KEY to connect the API. A
+#After that you could connect API with following steps.
+
+#setting loop step. Dont forget that Google Maps API's daily request size is 2500!
 r <- dim(stations)[1]
 
 
