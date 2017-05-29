@@ -1,5 +1,5 @@
 
-#Connecting Google MAPS API by using R. First of all you need get your API KEY to connect the API. A
+#Connecting Google MAPS Geocoding API by using R. First of all you need get your API KEY to connect the API. A
 #After that you could connect API with following steps.
 
 #setting loop step. Dont forget that Google Maps API's daily request size is 2500!
@@ -17,7 +17,7 @@ lon <- NULL
 geo_info <- NULL
 get_stations_final <- NULL
 
-#setting loop connecting Google Maps API and getting data.
+#setting loop connecting Google Maps Geocoding API and getting data.
 for (i in 1:r)
 {
   #connecting Google Maps API using jsonlite and RCurl library.
