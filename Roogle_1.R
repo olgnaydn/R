@@ -1,3 +1,5 @@
+# Connecting Google Cloud Vision API
+
 install.packages("RoogleVision", repos = c(getOption("repos"), "http://cloudyr.github.io/drat"))
 devtools::install_github("MarkEdmondson1234/googleAuthR")
 install.packages("googleAuthR")
