@@ -10,7 +10,7 @@ rds <- toString(radius)
 #return(c(lt,ln,dt,rds))
 #}
 
-dd <- fromJSON(getURL(paste('https://api.foursquare.com/v2/venues/trending?ll=',lt,',',ln,'&radius=',rds,'&client_id=SS5XHZIBTRZRDJ1JYT4AVT1IQW2J3VERTYVM4LISKV0GELZS&limit=50&client_secret=WT0R4FLCNS2MNOPQU4GAAEJLZ2ZOKP4NRDINZG4YD4YAQUCT&v=',date,sep="")))
+dd <- fromJSON(getURL(paste('https://api.foursquare.com/v2/venues/trending?ll=',lt,',',ln,'&radius=',rds,'&client_id=YOUR-CLIENT-ID&limit=50&client_secret=YOUR-CLIENT-SECRET&v=',date,sep="")))
 
 
 d <- length(dd$response$venues)
