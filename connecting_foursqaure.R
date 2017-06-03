@@ -1,3 +1,5 @@
+#Connecting foursquare REST API by using R
+#Following function is getting venues related to lat-lon, date and radius value you define
 get_fs <- function(lat,lon,date,radius)
 {
 library(rjson)
@@ -10,6 +12,7 @@ rds <- toString(radius)
 #return(c(lt,ln,dt,rds))
 #}
 
+#In this part you need to define your clientID and client secret  
 dd <- fromJSON(getURL(paste('https://api.foursquare.com/v2/venues/trending?ll=',lt,',',ln,'&radius=',rds,'&client_id=YOUR-CLIENT-ID&limit=50&client_secret=YOUR-CLIENT-SECRET&v=',date,sep="")))
 
 
