@@ -4,7 +4,7 @@ install.packages("RoogleVision", repos = c(getOption("repos"), "http://cloudyr.g
 devtools::install_github("MarkEdmondson1234/googleAuthR")
 install.packages("googleAuthR")
 
-## TODO 
+require(dplyr)
 require(googleAuthR)
 require(bitops)
 require(jsonlite)
