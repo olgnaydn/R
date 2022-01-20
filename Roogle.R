@@ -3,6 +3,8 @@
 install.packages("RoogleVision", repos = c(getOption("repos"), "http://cloudyr.github.io/drat"))
 devtools::install_github("MarkEdmondson1234/googleAuthR")
 install.packages("googleAuthR")
+
+## TODO 
 require(googleAuthR)
 require(bitops)
 require(jsonlite)
